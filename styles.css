@@ -1,0 +1,9 @@
+h1, h2 
+{
+    font-family: "Jersey 15", serif;
+}
+
+body 
+{
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Sunset gradient */
+}
