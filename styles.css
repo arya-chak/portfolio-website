@@ -1,3 +1,8 @@
+html 
+{
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
 /* Set the font family for h1 and h2 elements */
 h1, h2 
 {
@@ -7,7 +12,7 @@ h1, h2
 /* Set the background gradient for the body */
 body 
 {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient background */
 }
 
 /* Set the line height for the body */
@@ -48,4 +53,42 @@ body
 {
     background-color: #264653; /* Set background color on hover */
     color: #f4a261; /* Set text color on hover */
+}
+
+
+/* Dark mode styles */
+.dark-mode body 
+{
+    background: linear-gradient(45deg, #121212, #333333); /* Dark background */
+    color: white;
+}
+ 
+.dark-mode nav 
+{
+    background-color: #333333; /* Dark nav */
+    color: #ffffff;
+}
+ 
+.dark-mode a 
+{
+    color: #4da6ff;
+}
+ 
+/* Smooth transition for background and color changes */
+body, nav, a 
+{
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Dark Mode Styles for <main> */
+.dark-mode main 
+{
+    background-color: #121212; /* Dark background for main */
+    color: white; /* White text for dark mode */
+}
+
+/* Smooth transition for background and text color */
+main 
+{
+    transition: background-color 0.5s, color 0.5s;
 }
