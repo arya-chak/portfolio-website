@@ -1,9 +1,51 @@
+/* Set the font family for h1 and h2 elements */
 h1, h2 
 {
     font-family: "Jersey 15", serif;
 }
 
+/* Set the background gradient for the body */
 body 
 {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Sunset gradient */
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+}
+
+/* Set the line height for the body */
+body 
+{
+    line-height: 1.6;
+}
+
+/* Style the navigation bar */
+.navbar 
+{
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the navigation items */
+    background-color: #3c3d3c; /* Set background color */
+}
+  
+/* Style each list item in the navigation bar */
+.navbar li 
+{
+    margin: 0 15px; /* Set margin between items */
+}
+  
+/* Style the links in the navigation bar */
+.navbar a 
+{
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color */
+    font-size: 1.2em; /* Set font size */
+    padding: 10px 15px; /* Set padding */
+    border-radius: 5px; /* Round the corners */
+}
+
+/* Change the background and text color on hover */
+.navbar a:hover 
+{
+    background-color: #264653; /* Set background color on hover */
+    color: #f4a261; /* Set text color on hover */
 }
