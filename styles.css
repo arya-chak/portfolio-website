@@ -12,7 +12,7 @@ h1, h2
 /* Set the background gradient for the body */
 body 
 {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient background */
+    background: linear-gradient(45deg, #5fbcff, #7b9afe); /* Gradient background */
 }
 
 /* Set the line height for the body */
